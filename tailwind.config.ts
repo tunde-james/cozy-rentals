@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -8,13 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'brand-light': 'var(--brand-light)',
+        'text1-dark': 'var(--text1-dark)',
+        'text2-light': 'var(--text2-light)',
+        'surface1-light': 'var(--surface1-light)',
+        'surface2-light': 'var(--surface2-light)',
+        opacity: 'var(--background-opacity)',
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        house:
+          'url(assets/images/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.webp)',
       },
     },
   },
   plugins: [],
-}
-export default config
+};
+export default config;
