@@ -12,3 +12,21 @@ html {
   //--background-opacity: hsl(205 100% 7% / 0.7);
   --background-opacity: red;
 }
+
+@layer components {
+  ul.active {
+    left: 0;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
