@@ -9,7 +9,7 @@ html {
   --text2-light: hsl(0 0% 100%);
   --surface1-light: hsl(0 0% 90%);
   --surface2-light: hsl(0 0% 59%);
-  //--background-opacity: hsl(205 100% 7% / 0.7);
+  --background-util: #23a6f0;
   --background-opacity: red;
 }
 

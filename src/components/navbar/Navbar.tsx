@@ -19,18 +19,21 @@ function Navbar() {
 
   return (
     <nav className="flex min-h-[70px] items-center justify-between gap-5 border-b px-[20px] py-[10px] text-white">
-      <Link href="/" className="text-xl capitalize">
+      <Link href="/" className="text-2xl capitalize">
         cozy
       </Link>
 
       <ul
-        className={`absolute top-[70px] flex h-[calc(100dvh-70px)] w-full flex-col items-center justify-center gap-4 bg-slate-600/70 p-3 text-center text-white duration-700 ${
+        className={`absolute top-[70px] flex h-[calc(100dvh--70px)] w-full flex-col items-center justify-center gap-12 bg-slate-600/70 p-3 text-center text-white duration-700 ${
           isActive ? "-left-[100%]" : "left-0"
         } sm:static sm:h-[0] sm:flex-row sm:items-center sm:gap-3 sm:bg-transparent`}
       >
         {links.map((link) => (
           <li key={link.id} className="" onClick={toggleActiveClass}>
-            <Link href={link.url} className="sm:hover:border-b">
+            <Link
+              href={link.url}
+              className="text-3xl sm:text-xl sm:hover:border-b"
+            >
               {link.title}
             </Link>
           </li>

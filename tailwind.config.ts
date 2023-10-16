@@ -14,6 +14,7 @@ const config: Config = {
         "text2-light": "var(--text2-light)",
         "surface1-light": "var(--surface1-light)",
         "surface2-light": "var(--surface2-light)",
+        "background-util": "var(--background-util)",
         opacity: "var(--background-opacity)",
       },
     },
