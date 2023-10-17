@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+      },
       colors: {
         "brand-light": "var(--brand-light)",
         "text1-dark": "var(--text1-dark)",

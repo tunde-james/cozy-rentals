@@ -18,7 +18,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="flex min-h-[70px] items-center justify-between gap-5 border-b px-[20px] py-[10px] text-white">
+    <nav className="center flex min-h-[70px] items-center justify-between gap-5 border-b px-10 py-[10px] text-white">
       <Link href="/" className="text-2xl capitalize">
         cozy
       </Link>
