@@ -4,10 +4,10 @@ import Navbar from "../navbar/Navbar";
 function HeroSection() {
   return (
     <header className="h-[600px] w-full bg-[url('/images/hero_image.webp')] bg-cover bg-no-repeat object-contain">
-      <section className="h-full w-full bg-slate-600/10 backdrop-brightness-75 sm:p-8">
+      <section className="h-full w-full bg-slate-600/10 backdrop-brightness-75">
         <Navbar />
 
-        <div className="center mt-10 flex flex-col items-center justify-center px-10 sm:flex-row sm:items-center sm:justify-between">
+        <div className="container mt-10 flex flex-col items-center justify-center px-5 md:px-10 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-center text-3xl font-bold text-white sm:w-[384px] sm:text-start sm:text-4xl">
             The most affortable place to stay in the san franciso bay area
           </p>
